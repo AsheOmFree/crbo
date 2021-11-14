@@ -1,0 +1,174 @@
+#login-content {
+  background: white;
+  width: 100%;
+  height: 100%;
+}
+
+#login-left {
+  background: white;
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+#login-logo {
+  display: flex;
+  justify-content: center;
+}
+
+#login-left img {
+  height: 90px;
+  width: 184px;
+  padding-top: 30px;
+}
+form {
+  text-align: center;
+  padding-top: 30%;
+}
+
+#login-left p {
+  font-size: 24px;
+}
+
+.login-input {
+  width: 346px;
+  height: 48px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  background: no-repeat url("../images/Vector.png");
+  background-position: left 5% center;
+  text-indent: 10%;
+}
+
+form button {
+  width: 350px;
+  height: 48px;
+  border-radius: 15px;
+}
+
+#login-right {
+  background: white;
+  width: 50%;
+  height: 100%;
+  float: right;
+}
+
+#login-right img {
+  width: 100%;
+  float: right;
+}
+
+header {
+  height: 64px;
+  background: white;
+  display: flex;
+  padding: 10px 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  height: 46px;
+  padding-left: 10px;
+}
+
+#signed-in-user {
+  float: right;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+#user-picture {
+  background: chocolate;
+  width: 32px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+nav {
+  background-color: #3a3b3f;
+  color: #ffffff;
+  height: 48px;
+  text-align: center;
+  font-size: 14px;
+}
+
+nav ul {
+  padding: 0 40px 0 40px;
+  list-style: none;
+  display: inline-flex;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: white;
+  padding: 14px 4rem 17px 4rem;
+}
+
+.nav-item:hover {
+  background: rgb(240, 83, 74);
+  background: linear-gradient(
+    90deg,
+    rgba(240, 83, 74, 1) 0%,
+    rgba(243, 104, 49, 1) 48%,
+    rgba(246, 127, 23, 1) 100%
+  );
+}
+
+#dashboard-container {
+  height: 100%;
+}
+
+#dashboard-items {
+  background-color: #e0e0e0;
+  height: 100%;
+}
+
+#dashboard-data {
+  padding-top: 62px;
+
+  display: flex;
+  padding-left: 245px;
+}
+
+#dashboard-data-left {
+  height: 516px;
+  width: 325px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+#dashboard-data-left .data-row {
+  font-size: 14px;
+  border-bottom: 1px solid lightgrey;
+  padding: 28px 20px 28px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+#dashboard-data-right {
+  height: 519px;
+  width: 667px;
+  background-color: white;
+  margin-left: 40px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.legend-row {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.legend-box {
+  width: 28px;
+  height: 28px;
+}
+
+.legend-label {
+  margin-left: 10px;
+  font-size: 12px;
+}
